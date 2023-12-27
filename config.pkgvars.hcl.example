@@ -1,0 +1,13 @@
+vcenter_server                = "10.50.1.20"
+vsphere_username              = "administrator@vsphere.local"
+vsphere_password              = "foo"
+vsphere_insecure_connection   = true
+vsphere_datacenter            = "vsphere"
+vsphere_cluster               = ""
+vsphere_datastore             = ""
+vsphere_network               = ""
+vm_guest_os_network_addresses = ["10.50.1.10/24"]
+vm_guest_os_network_netmask   = "255.255.255.250"
+vm_guest_os_network_gateway   = "10.50.1.1"
+vm_guest_os_network_dns       = ["10.50.1.8", "10.50.1.8"]
+vsphere_template_dir          = "VMWare Templates"
